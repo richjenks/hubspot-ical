@@ -1,0 +1,10 @@
+{
+    "require": {
+        "eluceo/ical": "^0.14.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "katzgrau/klogger": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {"RichJenks\\HubspotICal\\": "src/"}
+    }
+}
