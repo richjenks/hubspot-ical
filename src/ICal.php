@@ -1,4 +1,4 @@
-<?php namespace RichJenks\HubspotICal;
+<?php namespace RichJenks\HubSpotICal;
 
 /**
  * Constructs `.ics` file
@@ -28,7 +28,7 @@ class ICal {
 	 *
 	 * @param array  $config   API config options
 	 * @param object $calendar iCal creator
-	 * @param array  $events   From /RichJenks\HubspotICal\Hubspot
+	 * @param array  $events   From /RichJenks\HubSpotICal\HubSpot
 	 */
 	public function __construct($config, $calendar, $events) {
 		$this->config   = $config;

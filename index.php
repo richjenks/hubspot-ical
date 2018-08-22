@@ -1,4 +1,4 @@
-<?php namespace RichJenks\HubspotICal;
+<?php namespace RichJenks\HubSpotICal;
 
 require 'vendor/autoload.php';
 
@@ -11,11 +11,11 @@ $deps = (object) [
 ];
 
 // Explicitly set calendar name
-$deps->ical->setName('Hubspot');
-$deps->ical->setDescription('Hubspot');
+$deps->ical->setName('HubSpot');
+$deps->ical->setDescription('HubSpot');
 
 // Get calendar data
-$hubspot = new Hubspot($deps->config, $deps->guzzle);
+$hubspot = new HubSpot($deps->config, $deps->guzzle);
 $events  = $hubspot->get();
 
 // Get iCal

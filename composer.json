@@ -5,6 +5,6 @@
         "katzgrau/klogger": "^1.2"
     },
     "autoload": {
-        "psr-4": {"RichJenks\\HubspotICal\\": "src/"}
+        "psr-4": {"RichJenks\\HubSpotICal\\": "src/"}
     }
 }

@@ -1,9 +1,9 @@
-<?php namespace RichJenks\HubspotICal;
+<?php namespace RichJenks\HubSpotICal;
 
 /**
- * Interacts with the Hubspot API
+ * Interacts with the HubSpot API
  */
-class Hubspot {
+class HubSpot {
 
 	/**
 	 * API config options
@@ -42,7 +42,7 @@ class Hubspot {
 	}
 
 	/**
-	 * Gets calendar events from Hubspot API
+	 * Gets calendar events from HubSpot API
 	 * @return array Raw calendar JSON
 	 */
 	private function api() {
@@ -69,7 +69,7 @@ class Hubspot {
 	}
 
 	/**
-	 * Sanitizes raw calendar JSON from Hubspot API
+	 * Sanitizes raw calendar JSON from HubSpot API
 	 * @param  array $raw Raw calendar data
 	 * @return array      Sanitized calendar data
 	 */
